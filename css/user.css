@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body{
+  background-image: radial-gradient(
+    circle farthest-corner at 10% 20%,
+    rgb(1, 68, 77) 0%,
+    rgb(2, 20, 26) 90%
+  );
+}
+.wrapper{
+    width: 500px;
+    height: 100%;
+    margin: auto;
+    text-transform: capitalize;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    margin-top: 5%;
+    padding: 20px;
+    overflow-y:scroll;
+}
+
+.myprofile{
+  max-height: 80px;
+}
+.btn_logout{
+  background-color: #4796ff;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  padding: 8px 15px;
+  width: 100%;
+}
+img{
+  margin-top: -10px;
+  border-radius: 50%;
+  border:solid thin white;
+}
+#submitsearch{
+    border: 1px solid rgb(138, 134, 134);
+    margin-left: -82px;
+    padding: 5px;
+    border-radius: 19px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 8px; 
+    padding-top: 4px;
+  
+    display: none;
+    box-shadow: 0 0 1px black;     
+    margin-right:110px;
+  }
+  
+  #searchInput {
+        width: 48%;
+  
+        border: 1px solid #000;
+        border-radius: 30px;
+        font-size: 16px;
+        background-color: white;
+        background-image:url('https://cdn2.iconfinder.com/data/icons/ios-7-icons/50/search-24.png');
+  
+        background-position: 10px 7px;
+        background-repeat: no-repeat;
+        padding: 8px 20px 8px 40px;
+        -webkit-transition: width 0.8s ease-in-out;
+        transition: width 0.8s ease-in-out;
+        outline: none;
+        opacity: 0.9;
+  
+      }
+  
+  
+  
+  
